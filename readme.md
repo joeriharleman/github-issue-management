@@ -8,28 +8,28 @@ I had a use case where I needed to close a bunch of stale issues. I ended up man
 * It distinguishes between PRs and regular issues.
 
 ## Usage
-0. Open `github.py` and fill in all variables in the script.
-1. Create a virtual environment:
+1. Open `github.py` and fill in all variables in the script.
+2. Create a virtual environment:
 ```shell
 venv create
 ```
 
-2. Activate the new virtual environment:
+3. Activate the new virtual environment:
 ```shell
 source bin/activate
 ```
 
-3. Install Python dependencies:
+4. Install Python dependencies:
 ```shell
 pip install -r requirements.txt
 ```
 
-4. Mark as executable:
+5. Mark as executable:
 ```shell
 chmod +x github.py
 ```
 
-5. Execute script:
+6. Execute script:
 ```shell
 ./github.py
 ```
