@@ -6,3 +6,30 @@ I had a use case where I needed to close a bunch of stale issues. I ended up man
 * Outputs all issues in the console
 * Can close about 1 issue every 5 seconds (rate limiting), you can remove this easily if you don't want this.
 * It distinguishes between PRs and regular issues.
+
+## Usage
+0. Open `github.py` and fill in all variables in the script.
+1. Create a virtual environment:
+```shell
+venv create
+```
+
+2. Activate the new virtual environment:
+```shell
+source bin/activate
+```
+
+3. Install Python dependencies:
+```shell
+pip install -r requirements.txt
+```
+
+4. Mark as executable:
+```shell
+chmod +x github.py
+```
+
+5. Execute script:
+```shell
+./github.py
+```
